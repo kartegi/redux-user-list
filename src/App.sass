@@ -1,0 +1,33 @@
+@import "./styles/fonts"
+@import "./styles/variables"
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    @include main-font
+
+i
+    font-style: normal
+
+a
+    color: $rosewater
+
+.App
+    display: flex
+    align-items: center
+    flex-direction: column
+    max-width: 1920px
+    width: 100%
+    margin: 0 auto
+    min-height: 100vh
+    justify-content: space-between
+
+.container
+    display: flex
+    justify-content: center
+    align-items: center
+    max-width: 1080px
+    width: 100%
+    padding: 0 1rem
+    z-index: 1
